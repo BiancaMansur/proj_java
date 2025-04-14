@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Aluno n1 = new Aluno();
+        Aluno n1 = new Aluno("Bianca", 0, null, null);
             n1.setNome("Bruno");
             n1.setBairro("Penha");
             n1.setCep("21020410");
