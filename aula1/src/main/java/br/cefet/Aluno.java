@@ -12,6 +12,13 @@ public class Aluno {
         return plano;
     }
 
+    public Aluno(String nome, int matricula, String dataNascimento, String cpf){
+        this.nome = nome;
+        this.matriculaAluno = matricula;
+        this.setDataNascimento(dataNascimento);
+        this.cpf =  cpf;
+    }
+
     public int getMatriculaAluno(){
         return matriculaAluno;
     }
